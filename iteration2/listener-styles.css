@@ -8,11 +8,11 @@ body {
 
 h1 { color:gold; }
 
+
 .grid-container{
     display: grid;
     background-color: #3b1d57;
     gap: 0.1rem;
-    
 }
 
 .now-playing-grid{
@@ -42,3 +42,20 @@ h1 { color:gold; }
     grid-template-columns: repeat(3,1fr);
 }
 
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.flexbox-item{
+    display: inherit;
+    flex-grow: 1;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button{
+    font-size: 1.25rem;
+}
