@@ -1,0 +1,36 @@
+body {
+    background-color: #282a3a;
+    font-family: sans-serif;
+    margin: 0.5rem;
+}
+
+h1 { color:gold; }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    background-color: #3b1d57;
+}
+
+.flex-container{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    background-color: #3b1d57;
+    border: 2px solid black;
+    margin: 0.5rem;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: row;
+    justify-content: center;
+    padding: 2px 4px;
+}
+
+.flex-row{}
+
+.preferences{}
+
