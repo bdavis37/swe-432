@@ -8,6 +8,14 @@ body {
 
 h1 { color:gold; }
 
+input[type="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+}
+label[for*="placeholder"]{ 
+    color: #7cdfad; 
+    font-size: 2rem;
+}
 
 .grid-container{
     display: grid;
@@ -56,6 +64,16 @@ h1 { color:gold; }
     text-decoration: none;
 }
 
+.flexbox-column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
+}
+
 .button{
     font-size: 1.25rem;
 }
+
+
